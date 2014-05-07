@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+{% load static %}
+
+<html>
+    <head>
+        <title>Stories</title>
+    </head>
+    <body>
+        <h1>Welcome to Stories!</h1>
+        <br />
+        {% if liked_stories %}
+            <h2>Most liked stories:</h2>
+            <ul>
+            {% for story in liked_stories %}
+                <li><a href="/story/{{ story.pk }}">{{ story.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {%  endif %}
+        <br />
+        {% if popular_stories %}
+            <h2>Most viewed stories:</h2>
+            <ul>
+            {% for story in popular_stories %}
+                <li><a href="/story/{{ story.pk }}">{{ story.title }}</a></li>
+            {% endfor %}
+            </ul>
+        {%  endif %}
+        <br />
+        <a href="/story/about/">About!</a>
+        <br />
+        <img src="{%  static "whats_your_story.jpg" %}" alt="What's your story?"/>
+    </body>
+</html>
