@@ -8,7 +8,6 @@
     </head>
     <body>
         <h1>Welcome to Stories!</h1>
-        <br />
         {% if liked_stories %}
             <h2>Most liked stories:</h2>
             <ul>
@@ -26,8 +25,9 @@
             {% endfor %}
             </ul>
         {%  endif %}
-        <br />
+        {# TODO: Add an about page... #}
         <a href="/story/about/">About!</a>
+        <br />
         <br />
         <img src="{%  static "whats_your_story.jpg" %}" alt="What's your story?"/>
     </body>

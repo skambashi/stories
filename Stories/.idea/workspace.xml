@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/story/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="11" selection-start="181" selection-end="181" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="450">
+            <state line="7" column="1" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -92,10 +92,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/story/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="78" selection-start="669" selection-end="669" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="585">
+            <state line="27" column="37" selection-start="756" selection-end="756" vertical-scroll-proportion="0.64788735" vertical-offset="129" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -104,7 +104,7 @@
       <file leaf-file-name="story.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/story/story.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="7" selection-start="437" selection-end="437" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
+            <state line="7" column="38" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
@@ -126,10 +126,10 @@
         <option value="$PROJECT_DIR$/populate.py" />
         <option value="$PROJECT_DIR$/story/models.py" />
         <option value="$PROJECT_DIR$/story/views.py" />
-        <option value="$PROJECT_DIR$/templates/story/story.html" />
-        <option value="$PROJECT_DIR$/templates/story/index.html" />
         <option value="$PROJECT_DIR$/Stories/urls.py" />
         <option value="$PROJECT_DIR$/story/urls.py" />
+        <option value="$PROJECT_DIR$/templates/story/story.html" />
+        <option value="$PROJECT_DIR$/templates/story/index.html" />
       </list>
     </option>
   </component>
@@ -569,16 +569,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/story/story.html">
+    <entry file="file://$PROJECT_DIR$/story/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="437" selection-end="437" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/story/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="78" selection-start="669" selection-end="669" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="585">
+        <state line="7" column="1" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
           <folding />
         </state>
       </provider>
@@ -592,9 +585,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/story/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/story/story.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="181" selection-end="181" vertical-scroll-proportion="0.16666667" vertical-offset="0" max-vertical-offset="450">
+        <state line="7" column="38" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/story/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="37" selection-start="756" selection-end="756" vertical-scroll-proportion="0.64788735" vertical-offset="129" max-vertical-offset="585">
           <folding />
         </state>
       </provider>
