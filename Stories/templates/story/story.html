@@ -7,8 +7,10 @@
         {% if story %}
             <h1>{{ story.title }}</h1>
             <h4>{{ story.first_name }} {{ story.last_name }}</h4>
+            <h5>{{ story.created_on }}</h5>
             <p>{{ story.story }}</p>
             <p>Views: {{ story.views }} Likes: {{ story.likes }}</p>
         {% endif %}
+        <input type="button" value="Home" onclick="window.location='{% url 'story:index' %}'">
     </body>
 </html>

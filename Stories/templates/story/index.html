@@ -8,11 +8,12 @@
     </head>
     <body>
         <h1>Welcome to Stories!</h1>
+        <input type="button" value="Share your story!" onclick="window.location='{% url 'story:new_story' %}'">
         {% if liked_stories %}
             <h2>Most liked stories:</h2>
             <ul>
             {% for story in liked_stories %}
-                <li><a href="/story/{{ story.pk }}">{{ story.title }}</a></li>
+                <li><a href="{% url 'story:view_story' story.pk %}">{{ story.title }}</a></li>
             {% endfor %}
             </ul>
         {%  endif %}
@@ -21,14 +22,13 @@
             <h2>Most viewed stories:</h2>
             <ul>
             {% for story in popular_stories %}
-                <li><a href="/story/{{ story.pk }}">{{ story.title }}</a></li>
+                <li><a href="{% url 'story:view_story' story.pk %}">{{ story.title }}</a></li>
             {% endfor %}
             </ul>
         {%  endif %}
-        {# TODO: Add an about page... #}
-        <a href="/story/about/">About!</a>
+        <a href="{% url 'story:about' %}">About!</a>
         <br />
         <br />
-        <img src="{%  static "whats_your_story.jpg" %}" alt="What's your story?"/>
+        <img src="{%  static 'whats_your_story.jpg' %}" alt="What's your story?"/>
     </body>
 </html>

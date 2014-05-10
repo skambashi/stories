@@ -11,6 +11,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'Stories.views.home', name='home'),
     # url(r'^blog/', include('blog.urls')),
     url(r'^$', index, name='index'),
-    url(r'^story/', include('story.urls'), name='story'),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^story/', include('story.urls', namespace='story')),
+    url(r'^grappelli/', include('grappelli.urls')), # grappelli URLS
+    url(r'^key/', include(admin.site.urls)), # admin site
 )

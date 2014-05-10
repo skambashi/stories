@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stories</title>
+    </head>
+    <body>
+        <h1>Share your story!</h1>
+        <form id="story_form" method="post" action="{% url 'story:new_story' %}">
+            {% csrf_token %}
+            {% for hidden in form.hidden_fields %}
+                {{ hidden }}
+            {% endfor %}
+            {% for field in form.visible_fields %}
+                {{ field.errors }}
+                {{ field.help_text }}
+                <br/>
+                {{ field }}
+                <br/>
+            {% endfor %}
+            <input type="submit" name="submit" value="Submit!">
+        </form>
+    </body>
+</html>
