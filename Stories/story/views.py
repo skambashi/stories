@@ -46,4 +46,4 @@ def new_story(request):
     return render(request, 'story/new_story.html', context)
 
 def about(request):
-    return HttpResponse("You have reached the about page. LOL there's nothing here yet, chill...")
+    return render(request, 'story/about.html', {})
